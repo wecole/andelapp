@@ -19,5 +19,5 @@ print feedback #info is printed for the user
 
 
 if __name__ == '__main__': #initialises the docopt lib
-    arguments = docopt(__doc__, version='my weather app')
+    arguments = docopt(__doc__, version='andela_1.0.0')
     print(arguments)
